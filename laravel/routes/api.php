@@ -1,9 +1,9 @@
 <?php
 
-use App\Http\Controllers\AlbumController;
+use App\Http\Controllers\API\AlbumController;
+use App\Http\Controllers\API\ArtistController;
+use App\Http\Controllers\API\AuthController;
 use App\Http\Controllers\API\DashboardController;
-use App\Http\Controllers\ArtistController;
-use App\Http\Controllers\AuthController;
 use Illuminate\Support\Facades\Route;
 
 /*
